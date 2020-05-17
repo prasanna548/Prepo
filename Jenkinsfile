@@ -20,7 +20,7 @@ pipeline {
 
     stage('run') {
       steps {
-        sh 'echo \'new\''
+        sh 'echo \'run\''
       }
     }
 
