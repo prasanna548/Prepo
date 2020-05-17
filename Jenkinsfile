@@ -11,7 +11,7 @@ pipeline {
 
         stage('error') {
           steps {
-            sh 'echo "sahj\''
+            sh 'echo \'sahj\''
           }
         }
 
