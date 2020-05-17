@@ -9,7 +9,7 @@ pipeline {
           }
         }
 
-        stage('') {
+        stage('error') {
           steps {
             sh 'echo "sahj\''
           }
@@ -20,8 +20,7 @@ pipeline {
 
     stage('run') {
       steps {
-        sh '''echo \'new\'
-'''
+        sh 'echo \'new\''
       }
     }
 
